@@ -48,6 +48,7 @@
     "uglify-js": "^3.0.1"
   },
   "scripts": {
+    "build:esm": "babel -d dist/deno lib",
     "test": "make test"
   }
 }
