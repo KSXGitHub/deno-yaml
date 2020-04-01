@@ -6,6 +6,7 @@ devDependencies:
   '@babel/core': 7.9.0
   '@babel/preset-env': 7.9.0_@babel+core@7.9.0
   ansi: 0.3.1
+  babel-plugin-add-import-extension: 1.3.1
   babel-plugin-transform-commonjs: 1.1.6_@babel+core@7.9.0
   benchmark: 2.1.4
   browserify: 16.5.0
@@ -1060,6 +1061,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
+  /babel-plugin-add-import-extension/1.3.1:
+    dev: true
+    resolution:
+      integrity: sha512-ya5tjeYH6Zx9FETRRR4qHNEFZVcE489dhn9Wp9K0qqJ1IsApg9eNllcO1F+D8hacLgh9WQvAOeiPq9WMEz0D0g==
   /babel-plugin-dynamic-import-node/2.3.0:
     dependencies:
       object.assign: 4.1.0
@@ -4045,6 +4050,7 @@ specifiers:
   '@babel/preset-env': ^7.9.0
   ansi: ^0.3.1
   argparse: ^1.0.7
+  babel-plugin-add-import-extension: ^1.3.1
   babel-plugin-transform-commonjs: ^1.1.6
   benchmark: ^2.1.4
   browserify: ^16.2.2
